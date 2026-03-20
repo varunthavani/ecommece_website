@@ -44,7 +44,7 @@ const Navbar = () => {
                     <Link to="/profile" className='hover:text-black'>
                         <VscAccount className='h-6 w-6 text-gray-700' />
                     </Link>
-                    <button onClick={ToggleCartDrawer} className='relative hover:text-black'>
+                    <button onClick={ToggleCartDrawer} className='relative hover:text-pink'>
                         <FaShoppingCart className='h-6 w-6 text-gray-700' />
                         <span className='rounded-full -top-1 absolute text-xs text-white bg-[#ea2e0e] px-1 py-0.2'>4</span>
                     </button>
